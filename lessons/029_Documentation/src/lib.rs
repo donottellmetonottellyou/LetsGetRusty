@@ -4,6 +4,16 @@ pub struct SavingsAccount {
     balance: i32,
 }
 impl SavingsAccount {
+    /// Creates a `SavingsAccount` with a specified balance. To create a savings account with a zero
+    /// balance, call `SavingsAccount::default()`.
+    ///
+    /// #   Examples
+    ///
+    /// ```
+    /// use documentation::SavingsAccount;
+    /// let account = SavingsAccount::new(100);
+    /// assert_eq!(account.get_balance(), 100);
+    /// ```
     pub fn new(balance: i32) -> Self {
         Self { balance }
     }
