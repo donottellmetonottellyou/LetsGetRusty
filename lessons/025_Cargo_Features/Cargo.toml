@@ -1,0 +1,17 @@
+[package]
+    name    = "cargo_features"
+    version = "0.1.0"
+
+    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
+
+    edition = "2021"
+
+[dependencies]
+    rgb   = { version = "0.8.*", features = ["serde"], optional = true }
+    serde = { version = "1.*", features = ["derive"], optional = true }
+
+[features]
+    default = ["color"]
+
+    color  = ["dep:rgb"]
+    shapes = ["color", "dep:serde", "rgb?/serde"]

@@ -1,0 +1,10 @@
+[package]
+    name    = "blog_web"
+    version = "0.1.0"
+
+    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
+
+    edition = "2021"
+
+[dependencies]
+    blog_shared = { path = "../blog_shared" }

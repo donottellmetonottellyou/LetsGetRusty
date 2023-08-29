@@ -1,0 +1,5 @@
+[workspace]
+    exclude = ["lessons/000_SETUP", "lessons/026_Cargo_Workspaces"]
+    members = ["lessons/*"]
+
+    resolver = "2"

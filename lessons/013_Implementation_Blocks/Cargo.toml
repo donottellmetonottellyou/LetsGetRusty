@@ -1,0 +1,9 @@
+[package]
+    name    = "implementation_blocks"
+    version = "0.1.0"
+
+    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
+
+    edition = "2021"
+
+[dependencies]

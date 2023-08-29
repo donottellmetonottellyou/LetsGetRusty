@@ -1,0 +1,9 @@
+[package]
+    name    = "hello_world"
+    version = "0.0.1"
+
+    authors = [ "Jade Lynn Masker <donotellmetonottellyou@gmail.com>" ]
+
+    edition = "2021"
+
+[dependencies]

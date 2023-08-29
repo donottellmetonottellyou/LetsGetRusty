@@ -1,0 +1,10 @@
+[package]
+    name    = "strings_in_rust"
+    version = "0.1.0"
+
+    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
+
+    edition = "2021"
+
+[dependencies]
+    unicode-segmentation = "1.*"
