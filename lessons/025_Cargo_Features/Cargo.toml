@@ -2,9 +2,9 @@
     name    = "cargo_features"
     version = "0.1.0"
 
-    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
-
-    edition = "2021"
+    authors.workspace = true
+    edition.workspace = true
+    publish.workspace = true
 
 [dependencies]
     rgb   = { version = "0.8.*", features = ["serde"], optional = true }

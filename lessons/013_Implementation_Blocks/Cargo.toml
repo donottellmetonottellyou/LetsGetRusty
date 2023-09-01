@@ -2,8 +2,8 @@
     name    = "implementation_blocks"
     version = "0.1.0"
 
-    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
-
-    edition = "2021"
+    authors.workspace = true
+    edition.workspace = true
+    publish.workspace = true
 
 [dependencies]

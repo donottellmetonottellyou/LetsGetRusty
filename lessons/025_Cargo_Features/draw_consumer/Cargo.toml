@@ -2,12 +2,9 @@
     name    = "draw_consumer"
     version = "0.1.0"
 
-    authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
-
-    edition = "2021"
+    authors.workspace = true
+    edition.workspace = true
+    publish.workspace = true
 
 [dependencies]
-    cargo_features = { path = "../", default-features = false, features = [
-        "color",
-        "shapes",
-    ] }
+    cargo_features = { path = "../", default-features = false, features = ["color", "shapes"] }

@@ -1,5 +1,14 @@
 [workspace]
     exclude = ["lessons/000_SETUP", "lessons/026_Cargo_Workspaces"]
-    members = ["lessons/*"]
+    members = ["lessons/*", "lessons/025_Cargo_Features/draw_consumer"]
 
     resolver = "2"
+
+    [workspace.package]
+        authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
+        edition = "2021"
+        publish = false
+
+    [workspace.dependencies]
+        rand                 = "0.8.*"
+        unicode-segmentation = "1.*"

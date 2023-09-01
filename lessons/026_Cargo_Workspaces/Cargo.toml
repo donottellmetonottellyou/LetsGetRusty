@@ -1,2 +1,7 @@
 [workspace]
     members = ["blog_api", "blog_shared", "blog_web"]
+
+    [workspace.package]
+        authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
+        edition = "2021"
+        publish = false

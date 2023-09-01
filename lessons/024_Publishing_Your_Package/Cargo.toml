@@ -2,12 +2,12 @@
     name    = "publishing_your_package"
     version = "0.1.0"
 
-    authors     = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]
-    description = "an auth service"
-    license     = "MIT"
+    authors.workspace = true
+    description       = "an auth service"
+    license           = "MIT"
 
-    edition = "2021"
-    publish = false  # true
+    edition.workspace = true
+    publish.workspace = true
 
 [dependencies]
-    rand = "0.8.5"
+    rand.workspace = true
