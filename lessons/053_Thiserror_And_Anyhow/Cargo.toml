@@ -1,0 +1,14 @@
+[package]
+    name    = "thiserror-and-anyhow"
+    version = "0.1.0"
+
+    authors.workspace = true
+    edition.workspace = true
+    publish.workspace = true
+
+[dependencies]
+    env_logger.workspace = true
+    log.workspace        = true
+
+    anyhow.workspace    = true
+    thiserror.workspace = true
