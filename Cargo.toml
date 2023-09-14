@@ -1,6 +1,6 @@
 [workspace]
-    exclude = ["lessons/000_SETUP", "lessons/026_Cargo_Workspaces"]
-    members = ["lessons/*", "lessons/025_Cargo_Features/draw_consumer"]
+    exclude = ["lessons/0/0_SETUP", "lessons/2/6_Cargo_Workspaces"]
+    members = ["lessons/*/*", "lessons/2/5_Cargo_Features/draw_consumer"]
 
     resolver = "2"
 
