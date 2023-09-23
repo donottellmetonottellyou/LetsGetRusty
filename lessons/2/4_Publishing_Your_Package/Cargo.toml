@@ -1,5 +1,5 @@
 [package]
-    name    = "publishing_your_package"
+    name    = "publishing-your-package"
     version = "0.1.0"
 
     authors.workspace = true

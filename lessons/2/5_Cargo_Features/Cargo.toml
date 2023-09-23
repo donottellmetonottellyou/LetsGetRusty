@@ -1,5 +1,5 @@
 [package]
-    name    = "cargo_features"
+    name    = "cargo-features"
     version = "0.1.0"
 
     authors.workspace = true

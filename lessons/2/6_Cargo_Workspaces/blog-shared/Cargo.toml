@@ -1,5 +1,5 @@
 [package]
-    name    = "blog_api"
+    name    = "blog-shared"
     version = "0.1.0"
 
     authors.workspace = true
@@ -7,4 +7,4 @@
     publish.workspace = true
 
 [dependencies]
-    blog_shared = { path = "../blog_shared" }
+    serde = { version = "1.0", features = ["derive"] }

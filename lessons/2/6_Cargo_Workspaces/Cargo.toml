@@ -1,5 +1,6 @@
 [workspace]
-    members = ["blog_api", "blog_shared", "blog_web"]
+    members  = ["blog-api", "blog-shared", "blog-web"]
+    resolver = "2"
 
     [workspace.package]
         authors = ["Jade Lynn Masker <donottellmetonottellyou@gmail.com>"]

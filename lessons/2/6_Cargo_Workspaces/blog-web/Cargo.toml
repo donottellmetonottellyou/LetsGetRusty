@@ -1,5 +1,5 @@
 [package]
-    name    = "draw_consumer"
+    name    = "blog-web"
     version = "0.1.0"
 
     authors.workspace = true
@@ -7,4 +7,4 @@
     publish.workspace = true
 
 [dependencies]
-    cargo_features = { path = "../", default-features = false, features = ["color", "shapes"] }
+    blog-shared = { path = "../blog-shared" }

@@ -1,5 +1,5 @@
 [package]
-    name    = "project_structure_overview"
+    name    = "project-structure-overview"
     version = "0.1.0"
 
     authors.workspace = true
