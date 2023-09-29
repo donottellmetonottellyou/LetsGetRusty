@@ -1,5 +1,10 @@
 [workspace]
-    exclude = ["lessons/0/0_SETUP", "lessons/2/6_Cargo_Workspaces"]
+    exclude = [
+        "lessons/0/0_SETUP",
+        "lessons/2/6_Cargo_Workspaces",
+        "lessons/7/5_stub",
+        "lessons/7/6_stub",
+    ]
     members = ["lessons/*/*", "lessons/*/*/crates/*"]
 
     resolver = "2"
@@ -12,11 +17,14 @@
     [workspace.dependencies]
         anyhow               = "1.*"
         chrono               = "0.4.*"
+        darling              = "0.20.*"
         env_logger           = "0.10.*"
         log                  = "0.4.*"
         quote                = "1.*"
         rand                 = "0.8.*"
-        syn                  = "2.*"
+        rust_decimal         = "1.*"
+        rust_decimal_macros  = "1.*"
+        syn                  = { version = "1.*", features = ["full"] }
         thiserror            = "1.*"
         tokio                = { version = "1.*", features = ["full"] }
         tokio-stream         = "0.1.*"
