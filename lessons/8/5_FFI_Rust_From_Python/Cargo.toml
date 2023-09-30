@@ -1,0 +1,14 @@
+[package]
+    name    = "ffi-rust-from-python"
+    version = "0.1.0"
+
+    authors.workspace = true
+    edition.workspace = true
+    publish.workspace = true
+
+[lib]
+    name       = "ffi_rust_from_python"
+    crate-type = ["cdylib"]
+
+[dependencies]
+    pyo3.workspace = true

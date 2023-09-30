@@ -15,11 +15,13 @@
         publish = false
 
     [workspace.dependencies]
+
         anyhow               = "1.*"
         chrono               = "0.4.*"
         darling              = "0.20.*"
         env_logger           = "0.10.*"
         log                  = "0.4.*"
+        pyo3                 = "0.19.*"
         quote                = "1.*"
         rand                 = "0.8.*"
         rust_decimal         = "1.*"
