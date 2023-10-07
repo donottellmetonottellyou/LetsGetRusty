@@ -24,8 +24,6 @@
         pyo3                 = "0.19.*"
         quote                = "1.*"
         rand                 = "0.8.*"
-        rust_decimal         = "1.*"
-        rust_decimal_macros  = "1.*"
         syn                  = { version = "1.*", features = ["full"] }
         thiserror            = "1.*"
         tokio                = { version = "1.*", features = ["full"] }
